@@ -12,3 +12,4 @@ if (typeof require !== 'undefined' && require.main === module) {
     var helloWorld = new HelloWorld();
     helloWorld.sayHello();
 }
+
