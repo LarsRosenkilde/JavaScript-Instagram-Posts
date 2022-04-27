@@ -5,7 +5,8 @@ class CurrentTime {
     currentTime() {
         var date = new Date();
         var time = `${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}`;
-        return time;
+        var today = `${date.getDate()}-${date.getMonth()+1}-${date.getFullYear()}`;
+        return `${today} ${time}`;
     }
 }
 
